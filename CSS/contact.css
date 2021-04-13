@@ -1,0 +1,74 @@
+/* mid container */
+/* .mid-container{
+    height: 1200px;
+    border: 2px solid green;
+
+} */
+
+.mid-main-head{
+    overflow: hidden;
+    /* height: 360px; */
+    /* border: 2px solid red; */
+}
+.mid-main-head img{
+    width: 100%;
+}
+.mid-content{
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+
+.mid-content-left{
+    width: 40%;
+    padding: 25px;
+    /* border: 2px solid red; */
+}
+.left-header{
+    /* border: 2px solid blue; */
+    margin-bottom: 25px;
+}
+.left-header h2{
+    color: rgb(125, 23, 19);
+}
+.address{
+    margin: 25px 0px;
+}
+.address h3{
+    margin-bottom: 12px;
+    color: rgb(125, 23, 19);
+}
+.phone{
+    margin: 25px 0px;
+}
+.phone h3{
+    margin-bottom: 12px;
+    color: rgb(125, 23, 19);
+}
+.clinic-timings{
+    margin: 25px 0px;
+}
+.clinic-timings h3{
+    margin-bottom: 12px;
+    color: rgb(125, 23, 19);
+}
+
+
+.mid-content-right{
+    width: 60%;
+    /* border: 2px solid blue; */
+}
+.map-header{
+    margin: 25px;
+}
+.map-header h2{
+    color: rgb(125, 23, 19);
+}
+.map{
+    border: 4px solid rgb(125, 23, 19);
+    /* display: block; */
+    margin: 5px 25px;
+}
+.map iframe{
+    width: 100%;
+}
