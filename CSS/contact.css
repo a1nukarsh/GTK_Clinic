@@ -1,3 +1,19 @@
+/* .left-nav ul li a{
+    display: block;
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 15px 13px;
+    margin: 2px -11.5px;
+    background-color: white;
+    color: rgb(125, 23, 19);
+    transition: all 0.3s;
+} */
+#contacttab{
+    background-color: white;
+    color: rgb(125, 23, 19);
+    /* border: 1px solid rgb(125, 23, 19); */
+}
+
 /* mid container */
 /* .mid-container{
     height: 1200px;

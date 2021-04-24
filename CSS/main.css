@@ -55,6 +55,7 @@ html{
 .navbar{
     margin-top: 2px;
     background-color: rgb(125, 23, 19);
+    /* border: 4px solid rgb(125, 23, 19); */
     /* border: 2px solid green; */
     height: 45px;
     width: 100%;
