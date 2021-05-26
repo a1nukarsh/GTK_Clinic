@@ -1,0 +1,8 @@
+/* Home Section */
+
+.home-bg{
+    /* border: 2px solid black; */
+    height: 600px;
+    background-image: url("../Img/pexels-tara-winstead-7723603.jpg");
+    background-size: cover;
+}
