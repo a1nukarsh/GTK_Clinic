@@ -2,9 +2,14 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 html{
     scroll-behavior: smooth;
+}
+html a{
+    text-decoration: none;
+    color: black;
 }
 
 /* NAVBAR */
@@ -15,7 +20,7 @@ html{
     align-items: center;
     padding: 25px 45px 5px 25px;
     position: fixed;
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(255, 255, 255);
     top: 0;
 }
 .logo img{
@@ -61,12 +66,20 @@ html{
     height: 400px;
     padding-top: 136px;
 } */
+
+
+
+
 /* ABOUT SECTION */
 /* #about{
     border: 2px solid blue;
     height: 400px;
     padding-top: 136px;
 } */
+
+
+
+
 /* CONTACT SECTION */
 #contact{
     border: 2px solid green;
@@ -76,6 +89,87 @@ html{
 .contact-container{
     border: 2px solid red;
 }
+.contact-content{
+    display: flex;
+    /* border: 2px solid red; */
+    padding: 0 75px 25px 50px;
+}
+.contact-content-left{
+    width: 40%;
+    padding: 45px;
+    /* border: 2px solid red; */
+}
+.left-header{
+    /* border: 2px solid blue; */
+    margin-bottom: 25px;
+}
+.left-header h1{
+    color: rgb(125, 23, 19);
+    font-size: 27px;
+    font-weight: 400;
+}
+.address{
+    margin: 25px 0px;
+    font-size: 18px;
+}
+.address p{
+    line-height: 30px;
+}
+.address h3{
+    margin-bottom: 12px;
+    color: rgb(125, 23, 19);
+    font-size: 21px;
+}
+.phone{
+    margin: 25px 0px;
+    font-size: 18px;
+}
+.phone p a{
+    line-height: 30px;
+}
+.phone h3{
+    margin-bottom: 12px;
+    color: rgb(125, 23, 19);
+    font-size: 21px;
+}
+.clinic-timings{
+    margin: 25px 0px;
+    font-size: 18px;
+}
+.clinic-timings p{
+    line-height: 30px;
+}
+.clinic-timings h3{
+    margin-bottom: 12px;
+    color: rgb(125, 23, 19);
+    font-size: 21px;
+}
+
+
+.contact-content-right{
+    width: 60%;
+    /* border: 2px solid blue; */
+}
+.map-header{
+    margin: 45px;
+}
+.map-header h1{
+    color: rgb(125, 23, 19);
+    font-size: 27px;
+    font-weight: 400;
+}
+.map{
+    border: 4px solid rgb(125, 23, 19);
+    /* display: block; */
+    margin: 5px 25px;
+}
+.map iframe{
+    width: 100%;
+}
+
+
+
+
 /* BOOK SECTION */
 /* #book{
     border: 2px solid yellow;
