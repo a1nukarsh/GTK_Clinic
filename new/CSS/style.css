@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    padding: 25px 45px 5px 25px;
+    position: fixed;
+    background-color: rgb(182, 182, 182);
+    top: 0;
+}
+.logo img{
+    width: 90px;
+    align-items: center;
+}
+.nav-list a{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgba(255, 255, 255, 0);
+    font-size: 18px;
+    padding: 5px 5px 7px 5px;
+    margin: 3px 10px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.nav-list a:hover{
+    color: white;
+    background-color: rgb(125, 23, 19);
+}
+.nav-list{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    /* border: 2px solid green; */
+}
+.nav-list li{
+    list-style: none;
+    /* border: 2px solid pink; */
+}
+.logo-text h1{
+    padding: 0 0 0 12px;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+/* HOME SECTION */
+/* #home{
+    border: 2px solid red;
+    height: 400px;
+    padding-top: 136px;
+} */
+/* ABOUT SECTION */
+/* #about{
+    border: 2px solid blue;
+    height: 400px;
+    padding-top: 136px;
+} */
+/* CONTACT SECTION */
+#contact{
+    border: 2px solid green;
+    /* height: 400px; */
+    padding-top: 136px;
+}
+.contact-container{
+    border: 2px solid red;
+}
+/* BOOK SECTION */
+/* #book{
+    border: 2px solid yellow;
+    height: 400px;
+    padding-top: 136px;
+} */
