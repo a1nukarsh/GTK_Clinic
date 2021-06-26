@@ -71,24 +71,34 @@ html a{
 
 
 /* ABOUT SECTION */
-/* #about{
-    border: 2px solid blue;
+#about{
+    /* border: 2px solid blue; */
     height: 400px;
     padding-top: 136px;
-} */
+}
+.about-container{
+    border: 2px solid red;
+
+}
 
 
 
 
 /* CONTACT SECTION */
 #contact{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     /* height: 400px; */
     padding-top: 136px;
+    background-image: url('/img/Untitledn.jpg');
+    background-position: center;
+    /* transform: scaleX(-1); */
+    background-size: 100%;
+    /* opacity: 0.5; */
 }
-.contact-container{
+/* .contact-container{
     border: 2px solid red;
-}
+    background-color: rgba(125, 23, 19, 0.137);
+} */
 .contact-content{
     display: flex;
     /* border: 2px solid red; */
@@ -128,6 +138,18 @@ html a{
     line-height: 30px;
 }
 .phone h3{
+    margin-bottom: 12px;
+    color: rgb(125, 23, 19);
+    font-size: 21px;
+}
+.email{
+    margin: 25px 0px;
+    font-size: 18px;
+}
+.email p a{
+    line-height: 30px;
+}
+.email h3{
     margin-bottom: 12px;
     color: rgb(125, 23, 19);
     font-size: 21px;
