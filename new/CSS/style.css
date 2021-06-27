@@ -81,11 +81,11 @@ html a{
 
 
 /* HOME SECTION */
-/* #home{
+#home{
     border: 2px solid red;
-    height: 400px;
+    /* height: 400px; */
     padding-top: 136px;
-} */
+}
 
 
 
