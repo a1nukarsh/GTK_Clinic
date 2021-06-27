@@ -17,12 +17,14 @@ html a{
 .navbar{
     display: flex;
     /* border: 2px solid red; */
+    width: 100%;
     align-items: center;
     padding: 25px 45px 5px 25px;
     position: fixed;
     background-color: rgb(255, 255, 255);
     top: 0;
     z-index: 5;
+    box-shadow: 0px 0px 25px rgb(209, 208, 208);
 }
 .logo img{
     width: 90px;
@@ -46,6 +48,7 @@ html a{
     background-color: rgb(125, 23, 19);
 }
 .nav-list{
+    padding-right: 60px;
     display: flex;
     width: 100%;
     justify-content: flex-end;
@@ -82,11 +85,109 @@ html a{
 
 /* HOME SECTION */
 #home{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* height: 400px; */
     padding-top: 136px;
 }
+.home-container{
+    padding: 0 75px 0 75px;
+}
+.home-container-1{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.home-container-1-content{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* align-items: right; */
+    justify-content: center;
+    width: 100%;
+}
+.home-container-1-content h1{
+    font-size: 45px;
+    color: rgb(125, 23, 19);
+}
+.home-container-1-content p{
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 36px;
+}
+/* .home-container-1-img{
+    border: 2px solid green;
+    width: 50%;
+} */
+.home-container-1-img img{
+    width: 100%;
+}
 
+
+.home-container-2{
+    /* border: 2px solid red; */
+    background-image: url('/img/Web_Photo_Editor.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    display: flex;
+    padding: 100px 0 100px 0;
+    /* flex-direction: row-reverse; */
+    /* height: 5000px; */
+}
+.home-container-2-head{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    align-items: center;
+    width: 100%;
+}
+.home-container-2-head h1{
+    font-size: 37px;
+    color: rgb(125, 23, 19);
+}
+.home-container-2-pointers{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 75px;
+    align-items: center;
+    justify-content: center;
+}
+.home-2-pointers li{
+    font-size: 27px;
+    line-height: 50px;
+    font-weight: 300;
+    list-style: circle;
+}
+
+
+.home-container-3{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.home-container-3-img{
+    /* border: 2px solid black; */
+    width: 100%;
+}
+.home-container-3-img img{
+    width: 100%;
+}
+.home-container-3-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.home-container-3-content h1{
+    font-size: 36px;
+    color: rgb(125, 23, 19);
+}
+.home-container-3-content p{
+    font-size: 25px;
+    font-weight: 300;
+}
 
 
 
