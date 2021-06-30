@@ -143,15 +143,20 @@ html a{
 }
 .home-container-2-head h1{
     font-size: 37px;
-    color: rgb(125, 23, 19);
+    color: #7d1713;
 }
 .home-container-2-pointers{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     padding: 75px;
     align-items: center;
     justify-content: center;
+}
+.home-container-2-pointers h1{
+    font-size: 31px;
+    color: rgb(125, 23, 19);
+    padding-bottom: 25px;
 }
 .home-2-pointers li{
     font-size: 27px;
@@ -479,8 +484,29 @@ html a{
 
 
 /* BOOK SECTION */
-/* #book{
-    border: 2px solid yellow;
-    height: 400px;
+#book{
+    /* border: 2px solid yellow; */
+    /* height: 400px; */
+    /* justify-content: center; */
+    /* width: 100%; */
     padding-top: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.book-container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.book-container-1 img{
+    /* text-align: center; */
+    width: 50%;
+}
+
+/* #book iframe{
+    border: 2px solid red;
+
 } */
