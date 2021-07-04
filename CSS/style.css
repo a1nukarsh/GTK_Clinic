@@ -11,6 +11,10 @@ html a{
     text-decoration: none;
     color: black;
 }
+::selection {
+    color: white;
+    background: rgb(125, 23, 19);
+}
 
 /* NAVBAR */
 
@@ -81,6 +85,19 @@ html a{
     filter: drop-shadow(5px 4px 4px #3b3b3b9f);
 }
 
+/* CALL ICON */
+.Call{
+    width: 64px;
+    position: fixed;
+    bottom: 171px;
+    right: 50px;
+    z-index: 5;
+    
+}
+.Call img{
+    width: 100%;
+    filter: drop-shadow(5px 4px 4px #3b3b3b9f);
+}
 
 
 /* HOME SECTION */
@@ -163,6 +180,11 @@ html a{
     line-height: 50px;
     font-weight: 300;
     list-style: circle;
+}
+.home-2-pointers li span{
+    color: white;
+    background-color: rgb(125, 23, 19);
+    font-weight: 700;
 }
 
 
