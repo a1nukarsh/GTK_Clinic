@@ -15,6 +15,11 @@ html a{
     color: white;
     background: rgb(125, 23, 19);
 }
+.red-highlight-bold{
+    color: white;
+    background-color: rgb(125, 23, 19);
+    font-weight: 700;
+}
 
 /* NAVBAR */
 
@@ -181,11 +186,7 @@ html a{
     font-weight: 300;
     list-style: circle;
 }
-.home-2-pointers li span{
-    color: white;
-    background-color: rgb(125, 23, 19);
-    font-weight: 700;
-}
+
 
 
 .home-container-3{
@@ -202,10 +203,10 @@ html a{
 .home-container-3-content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
     width: 100%;
-    text-align: center;
+    text-align: right;
 }
 .home-container-3-content h1{
     font-size: 36px;
@@ -228,9 +229,9 @@ html a{
     /* border: 2px solid red; */
     padding: 0 75px 10px 75px;
 }
-.about-1-header h2{
+.about-1-header h1{
     text-align: center;
-    font-size: 32px;
+    font-size: 36px;
     color: rgb(125, 23, 19);
 }
 .about-1-header-container{
