@@ -633,6 +633,9 @@ html a {
   .nav-list {
     width: fit-content;
   }
+  .logo-text h1 {
+    font-size: 27px;
+  }
 
   #home {
     padding-top: 150px;
@@ -643,6 +646,13 @@ html a {
   }
   .home-container-1 {
     flex-direction: column-reverse;
+  }
+  .home-container-1-content h1 {
+    font-size: 32px;
+    color: rgb(125, 23, 19);
+  }
+  .home-container-1-content p {
+    font-size: 21px;
   }
 
   .home-container-2 {
@@ -656,8 +666,20 @@ html a {
     align-items: center;
     width: 100%;
   }
+  .home-container-2-head h1 {
+    font-size: 29px;
+  }
   .home-container-2-pointers {
     padding: 25px;
+  }
+  .home-container-2-pointers h1 {
+    font-size: 24px;
+  }
+  .home-2-pointers li {
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 300;
+    list-style: circle;
   }
   .home-container-3 {
     flex-direction: column;
@@ -669,32 +691,52 @@ html a {
     text-align: left;
     margin-bottom: 72px;
   }
+  .home-container-3-content h1 {
+    font-size: 29px;
+  }
+  .home-container-3-content p {
+    font-size: 19px;
+  }
 
   /* Counter */
   .content {
     flex-direction: column;
     /* height: 100vh; */
   }
+  .value{
+      font-size: 36px;
+  }
+  .counter-numerical{
+      font-size: 36px;
+  }
   .counter-content {
-    margin: 50px;
+    margin: 40px;
   }
 
   /* About */
   .about-container {
     padding: 0 25px 10px 25px;
   }
+  .about-1-header h1 {
+    font-size: 29px;
+  }
   .about-1-header-container {
     flex-direction: column;
+  }
+  .about-1-header-container-text p {
+    font-size: 19px;
   }
   .about-container-2 {
     flex-direction: column-reverse;
   }
   .about-2-content {
-    padding: 5px;
+    padding: 25px;
   }
   .about-2-content p {
-    font-size: 24px;
     font-weight: 300;
+    font-size: 19px;
+    line-height: 36px;
+    margin: 15px;
     text-align: left;
   }
 
