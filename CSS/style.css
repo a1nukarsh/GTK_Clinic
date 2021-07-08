@@ -560,30 +560,30 @@ html a {
 
 /* Responsive Design */
 
-@media screen and (max-width: 873) {
+@media screen and (max-width: 900px){
   #burger {
     display: block;
     text-align: right;
     position: absolute;
     right: 10px;
     /* margin-left: 450px; */
-    border: 4px solid #6f8b99;
+    border: 4px solid #7d1713;
   }
   .line {
-    border-bottom: 4px solid #666;
+    border-bottom: 4px solid #7d1713;
     width: 21px;
     height: 1px;
     margin: 3px 3px;
   }
   .line-s {
-    border-bottom: 3px solid #6f8b99;
+    border-bottom: 3px solid #7d1713;
     width: 21px;
     height: 1px;
     margin: 4px 3px;
   }
 
   #sidebar {
-    color: #023752;
+    color: #7d1713;
     padding: 25px;
     position: fixed;
     right: 0;
@@ -596,7 +596,7 @@ html a {
   #close {
     position: absolute;
     right: 10px;
-    border: 4px solid #6f8b99;
+    border: 4px solid #7d1713;
     /* width: 21px; */
     /* height: 1px; */
     padding: 3px 3px;
@@ -621,5 +621,81 @@ html a {
 
   .nav-list {
     display: none;
+  }
+
+  #home{
+      padding-top: 150px;
+      /* display: none; */
+  }
+  .home-container{
+    padding: 0 20px 0 20px;
+  }
+  .home-container-1{
+      flex-direction: column-reverse;
+  }
+
+  .home-container-2{
+      flex-direction: column;
+  }
+  .home-container-2-head {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    width: 100%;
+  }
+  .home-container-2-pointers{
+      padding: 25px;
+  }
+  .home-container-3{
+      flex-direction: column;
+  }
+  .home-container-3-content {
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 72px;
+  }
+
+  /* Counter */
+  .content{
+      flex-direction: column;
+      /* height: 100vh; */
+  }
+  .counter-content{
+      margin: 50px;
+  }
+
+  /* About */
+  .about-container {
+    padding: 0 25px 10px 25px;
+  }
+  .about-1-header-container {
+    flex-direction: column;
+  }
+  .about-container-2{
+      flex-direction: column-reverse;
+  }
+  .about-2-content {
+    padding: 5px;
+  }
+  .about-2-content p {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  /* Contact */
+  #contact{
+      background-image: none;
+  }
+  .contact-content{
+      flex-direction: column;
+      padding: 0 25px 15px 50px;
+  }
+  .contact-content-right {
+    width: 100%;
   }
 }
