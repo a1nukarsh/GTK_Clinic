@@ -531,7 +531,7 @@ html a {
 }
 
 /* BOOK SECTION */
-#book {
+#book-d {
   /* border: 2px solid yellow; */
   /* height: 400px; */
   /* justify-content: center; */
@@ -552,6 +552,9 @@ html a {
   /* text-align: center; */
   width: 50%;
 }
+#book-m {
+  display: none;
+}
 
 /* #book iframe{
     border: 2px solid red;
@@ -560,7 +563,7 @@ html a {
 
 /* Responsive Design */
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
   #burger {
     display: block;
     text-align: right;
@@ -584,10 +587,11 @@ html a {
 
   #sidebar {
     color: #7d1713;
-    padding: 25px;
+    padding: 50px;
     position: fixed;
     right: 0;
-    top: 0px;
+    /* top: 150px; */
+    z-index: 6;
     height: 100vh;
     width: 300px;
     background-color: white;
@@ -622,20 +626,27 @@ html a {
   .nav-list {
     display: none;
   }
-
-  #home{
-      padding-top: 150px;
-      /* display: none; */
+  .navbar {
+    width: fit-content;
+    /* padding: 0; */
   }
-  .home-container{
+  .nav-list {
+    width: fit-content;
+  }
+
+  #home {
+    padding-top: 150px;
+    /* display: none; */
+  }
+  .home-container {
     padding: 0 20px 0 20px;
   }
-  .home-container-1{
-      flex-direction: column-reverse;
+  .home-container-1 {
+    flex-direction: column-reverse;
   }
 
-  .home-container-2{
-      flex-direction: column;
+  .home-container-2 {
+    flex-direction: column;
   }
   .home-container-2-head {
     /* border: 2px solid red; */
@@ -645,11 +656,11 @@ html a {
     align-items: center;
     width: 100%;
   }
-  .home-container-2-pointers{
-      padding: 25px;
+  .home-container-2-pointers {
+    padding: 25px;
   }
-  .home-container-3{
-      flex-direction: column;
+  .home-container-3 {
+    flex-direction: column;
   }
   .home-container-3-content {
     justify-content: left;
@@ -660,12 +671,12 @@ html a {
   }
 
   /* Counter */
-  .content{
-      flex-direction: column;
-      /* height: 100vh; */
+  .content {
+    flex-direction: column;
+    /* height: 100vh; */
   }
-  .counter-content{
-      margin: 50px;
+  .counter-content {
+    margin: 50px;
   }
 
   /* About */
@@ -675,8 +686,8 @@ html a {
   .about-1-header-container {
     flex-direction: column;
   }
-  .about-container-2{
-      flex-direction: column-reverse;
+  .about-container-2 {
+    flex-direction: column-reverse;
   }
   .about-2-content {
     padding: 5px;
@@ -688,14 +699,27 @@ html a {
   }
 
   /* Contact */
-  #contact{
-      background-image: none;
+  #contact {
+    background-image: none;
   }
-  .contact-content{
-      flex-direction: column;
-      padding: 0 25px 15px 50px;
+  .contact-content {
+    flex-direction: column;
+    padding: 0 25px 15px 50px;
   }
   .contact-content-right {
+    width: 100%;
+  }
+
+  /* Booking */
+  #book-d {
+    display: none;
+  }
+  #book-m {
+    display: flex;
+    flex-direction: column;
+  }
+  .book-container-1 img {
+    /* text-align: center; */
     width: 100%;
   }
 }
