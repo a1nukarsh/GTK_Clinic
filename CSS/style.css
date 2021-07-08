@@ -636,6 +636,14 @@ html a {
   .logo-text h1 {
     font-size: 27px;
   }
+  .whatsapp{
+    bottom: 50px;
+    right: 25px;
+  }
+  .Call{
+      bottom: 120px;
+      right: 25px;
+  }
 
   #home {
     padding-top: 150px;
