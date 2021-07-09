@@ -38,6 +38,8 @@ html a {
 .logo img {
   width: 90px;
   align-items: center;
+  z-index: 8;
+
 }
 .nav-list a {
   cursor: pointer;
