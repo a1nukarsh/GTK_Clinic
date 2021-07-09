@@ -37,6 +37,7 @@ html a {
 }
 .logo{
   width: 110px;
+  border: 2px solid green;
 }
 .logo img {
   width: 90px;
