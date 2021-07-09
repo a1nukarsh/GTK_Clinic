@@ -35,11 +35,13 @@ html a {
   z-index: 5;
   box-shadow: 0px 0px 25px rgb(209, 208, 208);
 }
+.logo{
+  width: 110px;
+}
 .logo img {
   width: 90px;
   align-items: center;
-  z-index: 8;
-
+  /* z-index: 8; */
 }
 .nav-list a {
   cursor: pointer;
