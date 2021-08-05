@@ -110,6 +110,19 @@ html a {
   filter: drop-shadow(5px 4px 4px #3b3b3b9f);
 }
 
+/* Facebook ICON */
+.Facebook {
+  width: 72px;
+  position: fixed;
+  bottom: 242px;
+  right: 48px;
+  z-index: 5;
+}
+.Facebook img {
+  width: 100%;
+  filter: drop-shadow(5px 4px 4px #3b3b3b9f);
+}
+
 /* HOME SECTION */
 #home {
   /* border: 2px solid red; */
