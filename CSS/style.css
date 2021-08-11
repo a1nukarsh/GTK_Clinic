@@ -123,12 +123,12 @@ html a {
   filter: drop-shadow(5px 4px 4px #3b3b3b9f);
 }
 
-/* Facebook ICON */
+/* Linkedin ICON */
 .Linkedin {
-  width: 72px;
+  width: 64px;
   position: fixed;
   bottom: 313px;
-  right: 48px;
+  right: 50px;
   z-index: 5;
 }
 .Linkedin img {
